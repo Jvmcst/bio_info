@@ -36,6 +36,10 @@ body {
 text-align: center;
 }
 
+.centro{
+    justify-content: center;
+}
+
 nav {
     background-color: #121212;
     width: 100%;
@@ -168,6 +172,11 @@ nav a:hover {
     nav a {
         margin: 0 10px;
     }
+
+    .centro{
+        justify-content: center;
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -187,5 +196,11 @@ nav a:hover {
     .links a {
         margin: 5px;
         padding: 8px 16px;
+    }
+
+    
+    .centro{
+        justify-content: center;
+        font-size: 10px;
     }
 }
