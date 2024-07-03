@@ -169,3 +169,9 @@ nav a:hover {
         font-size: 10px;
     }
 }
+
+/*Iluminação botão*/
+.text {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 2.5px #00FF00, 0 0 7.5px #00FF00, 0 0 12.5px #00FF00; /*, 0 0 50px #00FF00;*/
+    }
